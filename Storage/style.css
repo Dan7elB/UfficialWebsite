@@ -165,6 +165,7 @@
   .secretButton{
     background-color: transparent;
     border: none;
+    opacity: 0.1;
   }
   .awidth{
     width: 180px;
