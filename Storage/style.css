@@ -1,0 +1,299 @@
+  :root{
+	--textcolor: white;
+	--color1: rgb(40,40,40);
+	--color2: rgb(15,15,15);
+  }
+
+  input:checked~*{
+	--textcolor: black;
+  --color1: white;
+	--color2: rgb(230,230,230);
+  }
+  
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+    font-family: Arial;
+    background-image:url("Image/Background2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+	
+  }
+
+  main{
+	  margin-top: 40px;
+  }
+
+  .snow{
+    background-image: url("Image/falling_snow.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header{
+	position: relative;
+    top: 10px;
+    left: 0;
+	border: 30px;
+  }
+  
+  article{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer{
+	padding: 10px;
+    background-color: var(--color2);
+	border-radius: 20px;
+	margin-bottom: 55px;
+	min-width: 200px;
+	max-width: 900px;
+  }
+
+  label{
+	background-color: var(--textcolor);
+    height:50px;
+    width:50px;
+  }
+
+  .center{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    float:center;
+    text-align: center;
+  }
+  .banner{
+    border-radius: 8px;
+    height: 117px;
+    position: relative;
+    margin: 5px;
+    object-fit: cover;
+  }
+  .art1{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .div1{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 10px;
+
+    background-color: var(--color1);
+    width:465px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .div{
+	color: var(--textcolor);
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+	box-shadow: 2px 2px 2px 2px #333333;
+  }
+
+  .div:hover{
+    border-color: var(--textcolor);
+  } 
+  .div2{ 
+    background-color: var(--color1);
+    width:310px;
+    height: 310px;
+    border-radius: 10px;
+  }
+  
+  .div3{
+    background-color: var(--color1);
+    width:400px;
+    border-radius: 10px;
+    flex: wrap;
+  }
+  
+  .div_6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .div6{
+    background-color: var(--color1);
+    text-align: center;
+    border-radius: 10px;
+    width:200px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  
+  .twitter-tweet{
+    text-align: center;
+    border-radius: 10px;
+  }
+  .div8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    height: 315px;
+    width: 160px;
+    background-color: var(--color1);
+    border-radius: 10px;
+  }
+
+  .x-post{
+	width: 300px;
+	height: 400px;
+  }
+  
+  .div9{
+	transform:scale(0.65);
+    background-color: var(--color1);
+    width:400px;
+    border-radius: 10px;
+    flex: wrap;
+
+  }
+
+  .div10{
+	  display: flex;
+	  justify-content: space-around;
+	  height: 20px;
+	  
+  }
+  
+  .img{
+    width: 150px; 
+    float:left; 
+    padding: 15px;
+	border-radius: 25px;
+	transition: all 0.3s ease;
+  }
+  
+  .img:hover{
+	transform:scale(1.1);
+  }
+  
+  .h1-important{
+	color: var(--textcolor);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+	background-color: var(--color1);
+  }
+  .iframe{
+    width: 400px;
+    height: 225px;
+    background-color: var(--color1);
+    padding: 1px;
+    border-radius: 10px;
+  }
+
+.padding1{
+    padding-top: 30px;
+	padding-bottom: 15px;
+  }
+  
+  .padding2{
+    padding-top: 35px;
+  }
+
+  .margin1{
+    margin: 75px;
+  }
+  .margin2{
+    margin: 25px;
+  }
+  .margin3{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 240px;
+
+  }
+  .link_img{
+    border-radius: 50%;
+    width: 150px;
+	height: 150px;
+	transition: all 0.2s ease;
+	transform:scale(0.90);
+  }
+
+  .link_img:hover{
+	transform:scale(0.95);
+  }  
+  
+  .h1-important{
+    text-align: center;
+  }
+
+  .blockblack1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color:  black;
+    opacity: 0.9;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -318px;
+    
+    height: 318px;
+    width: 164px;
+    border-radius: 10px;
+  }
+  .blockblack1_img{
+    width: 150px;
+    height: 150px;
+  }
+
+  .secretButton{
+    background-color: transparent;
+    border: none;
+    opacity: 0.1;
+  }
+  .awidth{
+    width: 180px;
+  }
+  .special_div8{
+    height: 440px;
+  }
+
+  .label{
+    background: var(--textcolor);
+	color: var(--color1);
+	padding: 5px;
+	border-radius: 10px;
+	height: 24px;
+  }
+
+.art2{
+	display:flex;
+	justify-content: center;
+	color: var(--textcolor);
+}
+
+.btn1{
+	padding: 7px;
+	color: var(--color1);
+	background-color: var(--textcolor);
+	border-radius: 10px;
+	height: 20px;
+}
